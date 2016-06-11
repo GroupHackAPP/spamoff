@@ -225,8 +225,8 @@ function create_config( )
     "all",
     "leave_ban",
     "admin",
-    "addplug",
-    "del",
+    "TTTTTTTTTTTTTTTTTTTTTTTTTTTT",
+    "webshot",
     "echo"
     },
     sudo_users = {160149610,0,0,0,tonumber(our_id)},--Sudo users
