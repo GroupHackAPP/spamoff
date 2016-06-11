@@ -19,7 +19,7 @@ local function run(msg, matches)
       return "ℹ️ این امکان تنها در سوپر گروه فعال استت"
     end
   else
-    return "ℹ️ شما به این بخش دسترسی نداریدد"
+    return "شما به این بخش دسترسی ندارید ℹ"
   end
 end
 
