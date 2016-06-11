@@ -226,30 +226,23 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {160149610,0,0,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
-An advance Administration bot based on yagop/telegram-bot 
+    about_text = [[
+    🔷 ورژن 1.5 بوت گروپ
 
-https://github.com/SEEDTEAM/TeleSeed
+github.com/MobinDehghani/BotGp
 
-Our team!
-Alphonse (@Iwals)
-I M /-\ N (@Imandaneshi)
-Siyanew (@Siyanew)
-Rondoozle (@Potus)
-Seyedan (@Seyedan25)
+🔸روبات گروه منیجر ایرانی تماما رایگان که میتوانید به صورت رایگان روبات را به گروه خود اد کنید و لذت ببرید .
 
-Special thanks to:
-Juan Potato
-Siyanew
-Topkecleon
-Vamptacus
+🔸جهت اطلاع از آخرین اخبار روبات و آپدیت ها در کانال رسمی روبات عضو شوید :
+@BotGpCh
 
-Our channels:
-English: @TeleSeedCH
-Persian: @IranSeed
+🔸توسعه دهندگان روبات :
+@MobinDev [مدیر اصلی]
+@MobiNex [سازنده روبات]
+@RoyziBoy [مدیر روبات]
 ]],
     help_text_realm = [[
 Realm Commands:
