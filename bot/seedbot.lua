@@ -320,109 +320,107 @@ This command will send text to [group_id]
 
 ]],
     help_text = [[
-Commands list :
+📄 لیست دستورات :
 
-!kick [username|id]
-You can also do it by reply
 
-!ban [ username|id]
-You can also do it by reply
-
-!unban [id]
-You can also do it by reply
-
+📊 مشاهده اعضای گروه
 !who
-Members list
 
+📌اخراج از گروه
+!kick
+
+🔒مسدود کردن
+!ban
+
+🔓رفع انسداد
+!unban
+
+👥 لیست مدیران گروه
 !modlist
-Moderators list
 
-!promote [username]
-Promote someone
+🔝 ارتقاع مقام
+!promote
 
-!demote [username]
-Demote someone
+🔙 نزول مقام
+!demote
 
+🃏 درخواست لفت
 !kickme
-Will kick user
 
+ℹ️ مشاهده توضیحات گروه
 !about
-Group description
 
+🖼 انتخاب عکس گروه
 !setphoto
-Set and locks group photo
 
-!setname [name]
-Set group name
+🔖 انتخاب نام گروه
+!setname [نام]
 
+📃 مشاهده قوانین گروه
 !rules
-Group rules
 
+📮 دریافت آیدی عددی
 !id
-Return group id or user id
 
-!help
-Get commands list
+🎏 مشاهده راهنما
+!help [همین متن]
 
-!lock [member|name|bots|leave] 
-Locks [member|name|bots|leaveing] 
+🔐 قفل کردن
+!lock [ member | bots | name ]
 
-!unlock [member|name|bots|leave]
-Unlocks [member|name|bots|leaving]
+🔏 رفع قفل
+!unlock [ member | bots | name ]
 
-!set rules [text]
-Set [text] as rules
+📝 انتخاب قوانین
+!setrules [متن قوانین]
 
-!set about [text]
-Set [text] as about
+🖋 نوشتن توضیحات
+!setabout [متن توضیحات]
 
+⚙ رفتن به تنظیمات
 !settings
-Returns group settings
 
+🎐دریافت|ساخت لینک گروه
 !newlink
-Create/revoke your group link
 
+🔗 مشاهده لینک گروه
 !link
-Returns group link
 
+👔 لیست ادمین های اصلی گروه
 !owner
-Returns group owner id
 
-!setowner [id]
-Will set id as owner
+🎖ارتقاع به ادمین اصلی گروه
+!setowner [آیدی]
 
-!setflood [value]
-Set [value] as flood sensitivity
+🔧تنظیم حساسیت اسپم
+!setflood [مقدار اسپم]
 
+🏷 لیست کلی گروه
 !stats
-Simple message statistics
 
-!save [value] [text]
-Save [text] as [value]
+📩 ذخیره متن
+!save [متن] [معادله]
 
-!get [value]
-Returns text of [value]
+🔄 پاکسازی گروه
+!clean [ modlist | about | rules ]
 
-!clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+🔣 دریافت آیدی عددی کاربر
+!res [یوزر نیم]
 
-!res [username]
-Returns user id
-
-!log
-Will return group logs
-
+📖 مشاهده لیست افراد مسدود
 !banlist
-Will return group ban list
 
-» U can use both "/" and "!" 
+🔰مشاهده توضیحات روبات
+!botgp
+________________________________
 
-» Only mods, owner and admin can add bots in group
+⚠️ میتوانید از " / " و " ! " استفاده کنید
 
-» Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
+⚠️ تنها مدیران میتوانند روبات اد کنند
 
-» Only owner can use res,setowner,promote,demote and log commands
+⚠️ تنها مدیران میتوانند ارتقاع دهند
 
+________________________________
 ]]
   }
   serialize_to_file(config, './data/config.lua')
