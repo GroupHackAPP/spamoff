@@ -229,23 +229,21 @@ function create_config( )
     "webshot",
     "echo"
     },
-    sudo_users = {160149610,0,0,0,tonumber(our_id)},--Sudo users
+    sudo_users = {205083878,0,0,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
-    🔷 ورژن 1.5 بوت گروپ
+  ورژن 1.5 اسپم اف 
 
-github.com/MobinDehghani/BotGp
-
-🔸روبات گروه منیجر ایرانی تماما رایگان که میتوانید به صورت رایگان روبات را به گروه خود اد کنید و لذت ببرید .
+🔸روبات گروه منیجر ایرانی  که میتوانید  روبات را به گروه خود اد کنید و لذت ببرید .
 
 🔸جهت اطلاع از آخرین اخبار روبات و آپدیت ها در کانال رسمی روبات عضو شوید :
-@BotGpCh
+@HackAPPBots
 
 🔸توسعه دهندگان روبات :
-@MobinDev [مدیر اصلی]
-@MobiNex [سازنده روبات]
-@RoyziBoy [مدیر روبات]
+@RoyziBoy [مدیر اصلی]
+@HACKAPPADMIN [سازنده روبات]
+
 ]],
     help_text_realm = [[
 Realm Commands:
